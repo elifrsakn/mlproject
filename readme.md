@@ -1,4 +1,4 @@
-## end to end machine learnin project
+
 # Student Performance Prediction – End-to-End ML Project
 
 This repository contains a fully modular and production-ready end-to-end machine learning pipeline for predicting student performance using the `stud.csv` dataset. The architecture is designed following software engineering best practices, with modular components for data ingestion, preprocessing, model training, evaluation, logging, and deployment setup.
