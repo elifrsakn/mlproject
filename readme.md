@@ -13,37 +13,7 @@ This repository contains a fully modular and production-ready end-to-end machine
 
 ---
 
-## 📁 Directory Structure
-mlproject/
-│
-├── .bextensions/ # AWS Elastic Beanstalk deployment config
-├── artifacts/ # Stored artifacts (processed data, model.pkl, etc.)
-├── catboost_info/ # CatBoost logs (training progress, errors, etc.)
-│ ├── learn/
-│ ├── tmp/
-│ ├── catboost_training.json
-│ ├── learn_error.tsv
-│ └── time_left.tsv
-│
-├── logs/ # Custom logging output
-├── notebook/ # Jupyter notebooks for EDA / experimentation
-│ └── data/ # Contains raw stud.csv
-│
-├── src/ # Source code
-│ ├── components/ # Data ingestion, transformation, model trainer, evaluator
-│ ├── pipeline/ # Prediction pipeline for serving new data
-│ ├── templates/ # HTML templates for Flask UI (if any)
-│ ├── app.py # Main app logic
-│ ├── exception.py # Custom exception handling
-│ ├── logger.py # Custom logging
-│ ├── utils.py # Helper functions
-│ └── init.py
-│
-├── application.py # Flask entry point for inference API
-├── requirements.txt # Python dependencies
-├── setup.py # For packaging the module
-├── .gitignore
-└── readme.md
+<pre> ```bash mlproject/ │ ├── .bextensions/ # AWS Elastic Beanstalk deployment config ├── artifacts/ # Stored artifacts (processed data, model.pkl, etc.) ├── catboost_info/ # CatBoost logs (training progress, errors, etc.) │ ├── learn/ │ ├── tmp/ │ ├── catboost_training.json │ ├── learn_error.tsv │ └── time_left.tsv │ ├── logs/ # Custom logging output ├── notebook/ # Jupyter notebooks for EDA / experimentation │ └── data/ # Contains raw stud.csv │ ├── src/ # Source code │ ├── components/ # Data ingestion, transformation, model trainer, evaluator │ ├── pipeline/ # Prediction pipeline for serving new data │ ├── templates/ # HTML templates for Flask UI (if any) │ ├── app.py # Main app logic │ ├── exception.py # Custom exception handling │ ├── logger.py # Custom logging │ ├── utils.py # Helper functions │ └── __init__.py │ ├── application.py # Flask entry point for inference API ├── requirements.txt # Python dependencies ├── setup.py # For packaging the module ├── .gitignore └── readme.md ``` </pre>
 
 
 ---
